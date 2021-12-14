@@ -1,4 +1,4 @@
-require_relative('./person')
+require_relative('./corrector')
 
 class Person
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -14,6 +14,10 @@ class Person
 
   def can_use_services?
     @age > 18 || @parent_permission == true
+  end
+
+  def validate_name
+    @corrector
   end
 
   private
