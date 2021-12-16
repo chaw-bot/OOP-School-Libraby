@@ -13,9 +13,8 @@ class Person
     @rentals = []
   end
 
-  def add_rental(rental)
-    @rentals.push(rental) unless @rentals.include?(rental)
-    rental.person = self
+  def add_rental(book, date)
+    Rental.new(date, self, book)
   end
 
   def can_use_services?
