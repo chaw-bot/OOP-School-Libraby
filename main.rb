@@ -126,3 +126,6 @@ class Methods
     end
   end
 end
+
+class App
+end
