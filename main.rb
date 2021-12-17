@@ -62,4 +62,20 @@ class Methods
       puts 'Person not created.'
     end
   end
+
+  def create_book
+    print 'Title: '
+    book_title = gets.chomp
+
+    print 'Author: '
+    book_author = gets.chomp
+
+    puts 'Book created successfully!'
+
+    book = Book.new(book_title, book_author)
+    @books.push({
+                  output: "Title: #{book.title}, Author: #{book.author}",
+                  object: book
+                })
+  end
 end
