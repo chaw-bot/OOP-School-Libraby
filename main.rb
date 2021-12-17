@@ -174,3 +174,9 @@ class App
     end
   end
 end
+
+def main
+  App.new
+end
+
+main
