@@ -111,4 +111,18 @@ class Methods
 
     @rental_array.push(Rental.new(rental_date, book_chosen, person_chosen))
   end
+
+  def rental_list
+    print 'ID of person: '
+    person_id = Integer(gets.chomp)
+    puts 'Rental: '
+
+    @rental_array.each do |rental|
+      if person_id == rental.person.id
+        puts "Date: #{rental.date}, Book: \"#{rental.book.title}\" by #{rental.book.author}"
+      else
+        puts 'ID does not exist'
+      end
+    end
+  end
 end
