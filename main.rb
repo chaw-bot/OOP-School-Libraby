@@ -78,4 +78,10 @@ class Methods
                   object: book
                 })
   end
+
+  def book_list
+    @books.each do |book|
+      puts book[:output]
+    end
+  end
 end
