@@ -149,4 +149,28 @@ class App
 
     Integer(gets.chomp)
   end
+
+  method = Methods.new
+
+  loop do
+    case home_page
+    when 1
+      method.book_list
+    when 2
+      method.people_list
+    when 3
+      method.create_person
+    when 4
+      method.create_book
+    when 5
+      method.create_rental
+    when 6
+      method.rental_list
+    when 7
+      puts 'Thank you for using the app!'
+      exit
+    else
+      puts 'Choose a number between 1 to 7'
+    end
+  end
 end
