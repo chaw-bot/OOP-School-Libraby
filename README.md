@@ -5,7 +5,17 @@ This app is a tool one can use in a library to record what books are in the libr
 - Add new books.
 - Save records of who borrowed a given book and when.
 
-![Screenshot](./images/Screenshot.png)
+## Screenshots
+
+> |Screenshot 1|Screenshots 2|
+> |--------------|----------------|
+> |![Screenshot](./images/Screenshot1.png)|![Screenshot](./images/Screenshot2.png)|!
+> |Screenshot 3|Screenshots 4|
+> |--------------|----------------|
+> |![Screenshot](./images/Screenshot3.png)|![Screenshot](./images/Screenshot4.png)|!
+> |Screenshot 5|Screenshots 6|
+> |--------------|----------------|
+> |![Screenshot](./images/Screenshot5.png)|![Screenshot](./images/Screenshot6.png)|!
 
 ## Built With
 - Ruby
