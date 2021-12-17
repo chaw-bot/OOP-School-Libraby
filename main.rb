@@ -84,4 +84,10 @@ class Methods
       puts book[:output]
     end
   end
+
+  def people_list
+    @person_array.each do |person|
+      puts person[:output]
+    end
+  end
 end
